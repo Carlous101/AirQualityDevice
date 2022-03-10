@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:text="HOME"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="98dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="150dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

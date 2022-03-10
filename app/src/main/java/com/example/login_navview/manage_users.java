@@ -1,19 +1,32 @@
 package com.example.login_navview;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link manage_users#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class manage_users extends Fragment {
+public class manage_users extends Fragment{
+    /*
+    //Notificación Device**************
+    NotificationManagerCompat notificationManagerCompat;
+    Notification notification;
+     */
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -53,7 +66,31 @@ public class manage_users extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+        /*
+        //Notificación Device**************
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannel channel = new NotificationChannel("myCh", "My channel", NotificationManager.IMPORTANCE_HIGH);
+            NotificationManager manager = getSystemService(NotificationManager.class);
+            manager.createNotificationChannel(channel);
+        }
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "myCh")
+                .setSmallIcon(android.R.drawable.stat_notify_sync)
+                .setContentTitle("Air Quality Device")
+                .setContentText("Alerta Roja!!!");
+
+        notification=builder.build();
+        notificationManagerCompat= NotificationManagerCompat.from(this);
+
+         */
     }
+    /*
+    //Notificación Device**************
+    public void clickTextView(View view){
+        notificationManagerCompat.notify(1, notification);
+    }
+    */
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -61,4 +98,7 @@ public class manage_users extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_manage_users, container, false);
     }
+
+
+
 }

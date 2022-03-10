@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
@@ -15,7 +14,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
@@ -23,6 +21,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private static final String url = "https://my-json-server.typicode.com/Carlous101/users/data?user=";
     RequestQueue rqueue;
@@ -32,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     String img;
     String rol;
     String mail;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +58,11 @@ public class MainActivity extends AppCompatActivity {
                 requestJSON(usr.getText().toString().trim(), pass.getText().toString().trim());
             }
         });
+
     }
+
+
+
 
     private void requestJSON(String user, String password)
     {
@@ -105,5 +109,6 @@ public class MainActivity extends AppCompatActivity {
                }
        );
        rqueue.add(jsonArrayRequest);
+
     }
 }
