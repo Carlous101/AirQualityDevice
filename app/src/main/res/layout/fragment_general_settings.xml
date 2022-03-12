@@ -103,6 +103,34 @@
         android:textAlignment="gravity"
         android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="562dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="     Air Quality  – BC:FF:4D:82:96:EF"
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="523dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Device Name – MAC"
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="match_parent"

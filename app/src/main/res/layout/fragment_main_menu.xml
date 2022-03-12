@@ -19,7 +19,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="126dp"
 
-        android:text="El sistema basado en IoT (Air Quality) monitoriza, alerta e informa los niveles de gases peligrosos que existen dentro del hogar."
+        android:text="The system based on IoT (Air Quality) monitors, alerts and reports the levels of dangerous gases that exist inside the home."
         android:textSize="13sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="270dp"
 
-        android:text="Sensor de Monoxido de Carbono MQ7. Este sensor es de alta sensibilidad al monoxido de carbono (CO) y tambien es sensible al H2"
+        android:text="Carbon Monoxide Sensor MQ7. This sensor is highly sensitive to carbon monoxide (CO) and is also sensitive to H2"
         android:textSize="13sp" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="407dp"
 
-        android:text="Sensor para la deteccion de gases peligrosos y control de la calidad del aire. Este sensor es capaz de detectar un amplio rango de gases que incluye: NH3, NOx, alcohol, Benceno, Humo y CO2"
+        android:text="Sensor for the detection of dangerous gases and control of air quality. This sensor is capable of detecting a wide range of gases including: NH3, NOx, alcohol, Benzene, Smoke and CO2"
         android:textSize="13sp" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="6dp"
-        android:text="Hogar seguro"
+        android:text="Secure Home"
         android:textAlignment="center"
         android:textSize="34sp" />
 
@@ -69,7 +69,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="12dp"
         android:layout_marginTop="91dp"
-        android:text="Sistema IoT"
+        android:text="IoT system"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -110,16 +110,6 @@
         android:layout_marginTop="90dp"
         android:layout_marginEnd="6dp"
         android:src="@drawable/circuito" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="387dp"
-        android:layout_height="81dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginBottom="7dp"
-        android:src="@drawable/principal" />
 
     <View
         android:id="@+id/divider"
@@ -184,5 +174,16 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="12dp"
         android:src="@drawable/logooficial1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/piedepage" />
 
 </RelativeLayout>
