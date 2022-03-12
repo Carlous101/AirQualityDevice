@@ -1,24 +1,29 @@
-# Air Quality Device - PI 8 (end of society)
+# Air Quality Device - (end of society)
+[![0.png](https://i.postimg.cc/rsjWvXq1/0.png)](https://postimg.cc/JHyGkFD0)
 
 Sign Up
 ---------
-[![registro.png](https://i.postimg.cc/xCGDKtmM/registro.png)](https://postimg.cc/HcLhm0Bk)
+[![2.png](https://i.postimg.cc/T13h5yXb/2.png)](https://postimg.cc/ft1M6RyW)
 
 Login
 ---------
-[![login.png](https://i.postimg.cc/gj0SnDHY/login.png)](https://postimg.cc/hzHbYVYw)
-[![login1.png](https://i.postimg.cc/ryhZ7Bqz/login1.png)](https://postimg.cc/s1hJh0QR)
+[![1.png](https://i.postimg.cc/ZKfpHS7Z/1.png)](https://postimg.cc/WhkdpQcf)
+[![1-2.png](https://i.postimg.cc/HxCynsx0/1-2.png)](https://postimg.cc/mc8D647h)
 
-Menú
+Main menu
 ---------
-[![menu.png](https://i.postimg.cc/VLpGkXr8/menu.png)](https://postimg.cc/tYdtrZNS)
-[![menu-principal.png](https://i.postimg.cc/9Mm1npSG/menu-principal.png)](https://postimg.cc/5HrwHwf0)
+[![3.png](https://i.postimg.cc/yY5WWYpJ/3.png)](https://postimg.cc/7f3qWDkD)
+[![3-1.jpg](https://i.postimg.cc/cHXLWs8L/3-1.jpg)](https://postimg.cc/vgxsLwzJ)
 
 Device
 ---------
-[![dispositivo.png](https://i.postimg.cc/y6rnL0TZ/dispositivo.png)](https://postimg.cc/vDfWBgkY)
+[![4-device.jpg](https://i.postimg.cc/MHLZcd5k/4-device.jpg)](https://postimg.cc/7Jgrd1jX)
 
 
-information collected
+Information collected
 ---------
-[![datos-recopilados.png](https://i.postimg.cc/0NxCzn9L/datos-recopilados.png)](https://postimg.cc/75szcgGV)
+[![5.png](https://i.postimg.cc/15L5s74w/5.png)](https://postimg.cc/bs9jRTxw)
+
+Notification
+---------
+[![5-1.png](https://i.postimg.cc/Vkns69bT/5-1.png)](https://postimg.cc/ZWYzsdHF)
